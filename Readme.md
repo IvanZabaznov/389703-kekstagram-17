@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм» [![Build status][travis-image]][travis-url]
 
 * Студент: [Иван Забазнов](https://up.htmlacademy.ru/javascript/17/user/389703).
-* Наставник: `Неизвестно`.
+* Наставник: [Егор Король](https://htmlacademy.ru/profile/id501115).
 
 ---
 
