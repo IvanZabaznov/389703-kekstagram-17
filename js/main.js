@@ -18,19 +18,16 @@ var getRandomValue = function (min, max, step) {
 
 var getPhotoNumbers = function (number) {
   var arr = [];
-  var value = 0;
 
-  for (var i = 0; i < number; i++) {
-    value = getRandomValue(1, number, 1);
-
-    while (arr.indexOf(value) !== -1) {
-      value = getRandomValue(1, number, 1);
-    }
-
-    arr.push(value);
+  for (var i = 1; i <= number; i++) {
+    arr.push(i);
   }
 
-  return arr;
+  var compareRandom = function () {
+    return Math.random() - 0.5;
+  };
+
+  return arr.sort(compareRandom);
 };
 
 var getComments = function () {
